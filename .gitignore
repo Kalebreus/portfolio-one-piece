@@ -1,0 +1,9 @@
+/jogos/
+/corrigir.html
+/index.js
+/src/css/respansivo.css
+__pycache__/
+*.py[cod]
+analytics/data/
+analytics/examples/csharp/bin/
+analytics/examples/csharp/obj/
