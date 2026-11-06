@@ -233,7 +233,7 @@ button { cursor: pointer; }
 .crew-member:hover { transform:translateY(-4px); border-color:color-mix(in srgb,var(--crew-accent),transparent 42%); }
 .crew-photo { position:relative; overflow:hidden; aspect-ratio:1 / 1; background:#15262d; }
 .crew-photo::after { position:absolute; inset:38% 0 0; background:linear-gradient(transparent,rgba(7,17,22,.78)); content:""; pointer-events:none; }
-.crew-photo img { width:100%; height:100%; display:block; object-fit:cover; object-position:center 23%; filter:saturate(.88); transition:transform .4s ease; }
+.crew-photo img { width:100%; height:100%; display:block; object-fit:contain; object-position:center center; filter:saturate(1.04); transition:transform .4s ease; }
 .crew-member:hover .crew-photo img { transform:scale(1.045); }
 .crew-photo span { position:absolute; z-index:1; left:13px; bottom:11px; color:var(--crew-accent); font-size:8px; font-weight:850; letter-spacing:1px; }
 .crew-member-copy { padding:13px 13px 15px; border-top:1px solid color-mix(in srgb,var(--crew-accent),transparent 76%); }
